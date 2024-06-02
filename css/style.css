@@ -43,6 +43,7 @@ body,button,form {
   position: relative;
   color: black;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #menu a::before {
@@ -312,5 +313,7 @@ textarea {
 }
 [type="submit"]:hover { background:rgba(255, 59, 59, 0.777); }
 
-
+a {
+    -webkit-tap-highlight-color: transparent;
+}
 
