@@ -242,7 +242,6 @@ p:not(:last-child) {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  width: 80%;
 }
 
 .group-items {
@@ -252,6 +251,11 @@ p:not(:last-child) {
 .group-item {
   text-align: center;
   padding-bottom: 30px;
+  font-size: x-large;
+}
+
+.group-item h1 {
+  font-size: xx-large;
 }
 
 .group-item img {
